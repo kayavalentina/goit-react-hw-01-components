@@ -19,7 +19,6 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
-
 const randomColor = () => {
   return (
     '#' +
