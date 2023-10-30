@@ -1,0 +1,26 @@
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.tableHead {
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: blueviolet;
+}
+
+.tableItem {
+    text-transform: capitalize;
+    color: gray;
+    background-color: white;
+    height: 38px;
+    text-align: center;
+
+    &:nth-child(even) {
+        color: #6f6d6e;
+        background-color: rgb(219, 212, 212);
+    }
+}
